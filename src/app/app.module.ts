@@ -13,8 +13,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 
 const routes: Routes = [
   { path: 'inicio', component:InicioComponent },
- 
-  
+  { path: 'paginas-web', component:PaginasWebComponent},
 
   { path: '', component:InicioComponent, pathMatch: 'full' },
   { path: '**', redirectTo: '/', pathMatch: 'full' },
