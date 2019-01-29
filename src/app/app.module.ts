@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { PaginasWebComponent } from './paginas-web/paginas-web.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const routes: Routes = [
@@ -24,7 +25,8 @@ const routes: Routes = [
     HeaderComponent,
     InicioComponent,
     PaginasWebComponent,
-    ContactoComponent
+    ContactoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
