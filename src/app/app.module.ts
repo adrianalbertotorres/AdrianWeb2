@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 const routes: Routes = [
   { path: 'inicio', component:InicioComponent },
   { path: 'paginas-web', component:PaginasWebComponent},
+  { path: 'contacto', component:ContactoComponent},
 
   { path: '', component:InicioComponent, pathMatch: 'full' },
   { path: '**', redirectTo: '/', pathMatch: 'full' },
